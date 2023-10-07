@@ -66,6 +66,10 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             LikeButton(isLiked: isLiked, onTap: onTap),
+            Text(
+              isLiked ? "Dislike" : "Like",
+              style: Theme.of(context).textTheme.displaySmall,
+            )
           ],
         ),
       ),
