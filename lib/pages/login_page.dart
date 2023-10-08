@@ -86,6 +86,9 @@ class _LoginPageState extends State<LoginPage> {
                 ),
 
                 MyButton(onTap: signin, text: "Sign in"),
+                const SizedBox(
+                  height: 20,
+                ),
 
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
